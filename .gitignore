@@ -1,0 +1,42 @@
+﻿# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.idea/
+.vscode/
+
+# 本地数据集
+data/
+
+# 虚拟环境
+.venv/
+venv/
+tse_env/
+
+# 大模型/缓存
+cache/
+*.pth
+*.pt
+*.bin
+*.onnx
+
+# 音频
+*.wav
+*.mp3
+*.flac
+
+# 大量实验中间文件
+output/*.csv
+output/*.jsonl
+output/*cache*
+output/*oof*
+output/*grid*
+output/*summary*
+output/*validation*
+
+# 系统
+.DS_Store
+Thumbs.db
+output/final_result_step37.json

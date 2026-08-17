@@ -1,0 +1,256 @@
+{
+  "mode": "selective_dual_asr",
+  "router_threshold": 0.23,
+  "selector_threshold": 0.32,
+  "low_threshold": 0.095,
+  "high_threshold": 0.43,
+  "text_probability_threshold": 0.68,
+  "oof_metrics": {
+    "pure_oof_asr_cer": 0.339255677039529,
+    "final_oof_cer": 0.4087468460891506,
+    "final_oof_rr": 0.9493670886075949,
+    "final_oof_recognition_score": 0.7703101212592222,
+    "paraformer_call_rate": 0.8155603917301415,
+    "sensevoice_call_rate": 0.5799782372143635,
+    "asr_model_calls_per_sample": 1.395538628944505
+  },
+  "alternatives": [
+    {
+      "router_threshold": 0.23,
+      "pure_oof_asr_cer": 0.339255677039529,
+      "raw_positive_sv_call_rate": 0.6920821114369502,
+      "text_gate_oof_accuracy": 0.8351468988030468,
+      "text_gate_oof_auc": 0.9010851677246123,
+      "recognition_best": {
+        "low": 0.035,
+        "high": 0.43,
+        "p": 0.68,
+        "cer": 0.39140033641715727,
+        "rr": 0.9345991561181435,
+        "recognition_score": 0.7715994098504931,
+        "paraformer_call_rate": 0.8933623503808488,
+        "sensevoice_call_rate": 0.6490750816104461,
+        "asr_model_calls_per_sample": 1.5424374319912948,
+        "text_gate_call_rate": 0.5756256800870512,
+        "total_edit_distance": 3723
+      },
+      "robust": {
+        "low": 0.095,
+        "high": 0.43,
+        "p": 0.68,
+        "cer": 0.4087468460891506,
+        "rr": 0.9493670886075949,
+        "recognition_score": 0.7703101212592222,
+        "paraformer_call_rate": 0.8155603917301415,
+        "sensevoice_call_rate": 0.5799782372143635,
+        "asr_model_calls_per_sample": 1.395538628944505,
+        "text_gate_call_rate": 0.49782372143634385,
+        "total_edit_distance": 3888
+      }
+    },
+    {
+      "router_threshold": 0.28,
+      "pure_oof_asr_cer": 0.34009671993271656,
+      "raw_positive_sv_call_rate": 0.5894428152492669,
+      "text_gate_oof_accuracy": 0.8335146898803046,
+      "text_gate_oof_auc": 0.9012406115050052,
+      "recognition_best": {
+        "low": 0.005,
+        "high": 0.38,
+        "p": 0.74,
+        "cer": 0.3853027754415475,
+        "rr": 0.9261603375527426,
+        "recognition_score": 0.7704287810555976,
+        "paraformer_call_rate": 0.9249183895538629,
+        "sensevoice_call_rate": 0.5924918389553863,
+        "asr_model_calls_per_sample": 1.5174102285092492,
+        "text_gate_call_rate": 0.5119695321001088,
+        "total_edit_distance": 3665
+      },
+      "robust": {
+        "low": 0.035,
+        "high": 0.37,
+        "p": 0.74,
+        "cer": 0.3878259041211102,
+        "rr": 0.9261603375527426,
+        "recognition_score": 0.7691672167158162,
+        "paraformer_call_rate": 0.8933623503808488,
+        "sensevoice_call_rate": 0.5663764961915125,
+        "asr_model_calls_per_sample": 1.4597388465723613,
+        "text_gate_call_rate": 0.46082698585418935,
+        "total_edit_distance": 3689
+      }
+    },
+    {
+      "router_threshold": 0.35,
+      "pure_oof_asr_cer": 0.34167367535744325,
+      "raw_positive_sv_call_rate": 0.4736070381231672,
+      "text_gate_oof_accuracy": 0.8340587595212187,
+      "text_gate_oof_auc": 0.8981464295878343,
+      "recognition_best": {
+        "low": -0.015,
+        "high": 0.43,
+        "p": 0.7,
+        "cer": 0.39161059714045415,
+        "rr": 0.930379746835443,
+        "recognition_score": 0.7693845748474943,
+        "paraformer_call_rate": 0.9396082698585418,
+        "sensevoice_call_rate": 0.5059847660500544,
+        "asr_model_calls_per_sample": 1.4455930359085962,
+        "text_gate_call_rate": 0.6218715995647442,
+        "total_edit_distance": 3725
+      },
+      "robust": {
+        "low": 0.035,
+        "high": 0.38,
+        "p": 0.7,
+        "cer": 0.38656433978132887,
+        "rr": 0.9240506329113924,
+        "recognition_score": 0.7687431465650318,
+        "paraformer_call_rate": 0.8933623503808488,
+        "sensevoice_call_rate": 0.470620239390642,
+        "asr_model_calls_per_sample": 1.3639825897714908,
+        "text_gate_call_rate": 0.4804134929270947,
+        "total_edit_distance": 3677
+      }
+    },
+    {
+      "router_threshold": 0.37,
+      "pure_oof_asr_cer": 0.34261984861227923,
+      "raw_positive_sv_call_rate": 0.44281524926686217,
+      "text_gate_oof_accuracy": 0.8313384113166485,
+      "text_gate_oof_auc": 0.8974565994778326,
+      "recognition_best": {
+        "low": 0.0,
+        "high": 0.38,
+        "p": 0.76,
+        "cer": 0.3941337258200168,
+        "rr": 0.930379746835443,
+        "recognition_score": 0.768123010507713,
+        "paraformer_call_rate": 0.9292709466811752,
+        "sensevoice_call_rate": 0.470620239390642,
+        "asr_model_calls_per_sample": 1.3998911860718173,
+        "text_gate_call_rate": 0.5163220892274211,
+        "total_edit_distance": 3749
+      },
+      "robust": {
+        "low": 0.03,
+        "high": 0.38,
+        "p": 0.76,
+        "cer": 0.4007569386038688,
+        "rr": 0.9345991561181435,
+        "recognition_score": 0.7669211087571374,
+        "paraformer_call_rate": 0.8993471164309031,
+        "sensevoice_call_rate": 0.44940152339499456,
+        "asr_model_calls_per_sample": 1.3487486398258977,
+        "text_gate_call_rate": 0.48639825897714906,
+        "total_edit_distance": 3812
+      }
+    },
+    {
+      "router_threshold": 0.41,
+      "pure_oof_asr_cer": 0.345878889823381,
+      "raw_positive_sv_call_rate": 0.3885630498533724,
+      "text_gate_oof_accuracy": 0.8269858541893362,
+      "text_gate_oof_auc": 0.8989692762661321,
+      "recognition_best": {
+        "low": -0.05,
+        "high": 0.38,
+        "p": 0.76,
+        "cer": 0.39749789739276703,
+        "rr": 0.9282700421940928,
+        "recognition_score": 0.7653860724006629,
+        "paraformer_call_rate": 0.9657236126224157,
+        "sensevoice_call_rate": 0.4499455930359086,
+        "asr_model_calls_per_sample": 1.4156692056583242,
+        "text_gate_call_rate": 0.5527747551686616,
+        "total_edit_distance": 3781
+      },
+      "robust": {
+        "low": 0.0,
+        "high": 0.37,
+        "p": 0.76,
+        "cer": 0.3997056349873844,
+        "rr": 0.9282700421940928,
+        "recognition_score": 0.7642822036033542,
+        "paraformer_call_rate": 0.9292709466811752,
+        "sensevoice_call_rate": 0.4249183895538629,
+        "asr_model_calls_per_sample": 1.3541893362350381,
+        "text_gate_call_rate": 0.4967355821545158,
+        "total_edit_distance": 3802
+      }
+    },
+    {
+      "router_threshold": 0.43,
+      "pure_oof_asr_cer": 0.3460891505466779,
+      "raw_positive_sv_call_rate": 0.3563049853372434,
+      "text_gate_oof_accuracy": 0.8335146898803046,
+      "text_gate_oof_auc": 0.900372137050373,
+      "recognition_best": {
+        "low": -0.015,
+        "high": 0.4,
+        "p": 0.7,
+        "cer": 0.3801513877207738,
+        "rr": 0.9177215189873418,
+        "recognition_score": 0.768785065633284,
+        "paraformer_call_rate": 0.9396082698585418,
+        "sensevoice_call_rate": 0.40261153427638735,
+        "asr_model_calls_per_sample": 1.3422198041349291,
+        "text_gate_call_rate": 0.5554951033732318,
+        "total_edit_distance": 3616
+      },
+      "robust": {
+        "low": 0.095,
+        "high": 0.395,
+        "p": 0.7,
+        "cer": 0.4062237174095879,
+        "rr": 0.9409282700421941,
+        "recognition_score": 0.7673522763163031,
+        "paraformer_call_rate": 0.8155603917301415,
+        "sensevoice_call_rate": 0.3258977149075082,
+        "asr_model_calls_per_sample": 1.1414581066376497,
+        "text_gate_call_rate": 0.4232861806311208,
+        "total_edit_distance": 3864
+      }
+    },
+    {
+      "router_threshold": 0.47,
+      "pure_oof_asr_cer": 0.351555929352397,
+      "raw_positive_sv_call_rate": 0.2998533724340176,
+      "text_gate_oof_accuracy": 0.8171926006528836,
+      "text_gate_oof_auc": 0.8925705606493683,
+      "recognition_best": {
+        "low": -0.015,
+        "high": 0.38,
+        "p": 0.76,
+        "cer": 0.4024390243902439,
+        "rr": 0.930379746835443,
+        "recognition_score": 0.7639703612225995,
+        "paraformer_call_rate": 0.9396082698585418,
+        "sensevoice_call_rate": 0.3574537540805223,
+        "asr_model_calls_per_sample": 1.2970620239390642,
+        "text_gate_call_rate": 0.5266594124047879,
+        "total_edit_distance": 3828
+      },
+      "robust": {
+        "low": 0.03,
+        "high": 0.395,
+        "p": 0.7,
+        "cer": 0.39465937762825903,
+        "rr": 0.919831223628692,
+        "recognition_score": 0.7625859230002165,
+        "paraformer_call_rate": 0.8993471164309031,
+        "sensevoice_call_rate": 0.33133841131664854,
+        "asr_model_calls_per_sample": 1.2306855277475517,
+        "text_gate_call_rate": 0.5070729053318824,
+        "total_edit_distance": 3754
+      }
+    }
+  ],
+  "notes": [
+    "正样本Router与Selector策略验证均使用OOF概率",
+    "文本门控同样使用5折StratifiedGroupKFold OOF",
+    "负样本未参与Router/Selector标签训练，使用最终模型概率",
+    "最终隐藏B文本门控模型使用最终Router/Selector输出全量训练"
+  ]
+}
